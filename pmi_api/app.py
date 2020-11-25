@@ -109,7 +109,6 @@ def plot_roc_score(label_test, score,name):
     # name = re.sub('.tsv','_roc.png',name)
     name = name+'/roc.png'
     plt.savefig(name)
-    plt.show()
     return
 
 app = Flask(__name__)

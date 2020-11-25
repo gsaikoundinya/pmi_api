@@ -178,8 +178,8 @@ def pmi():
                 download_blob(connect_str,container_name,blob_name,i)
         logging.info(os.listdir(train_data_local))
         logging.info(os.listdir(test_data_local))
-        background_path = data_path_local+"/bkd_data"
-        category_path = data_path_local+"/cat_data"
+        background_path = data_path_local+"bkd_data"
+        category_path = data_path_local+"cat_data"
         if not os.path.exists(background_path):
             os.mkdir(background_path)
         if not os.path.exists(category_path):

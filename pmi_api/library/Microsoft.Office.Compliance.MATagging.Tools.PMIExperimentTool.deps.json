@@ -1,0 +1,177 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Office.Compliance.MATagging.Tools.PMIExperimentTool/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.28",
+          "Microsoft.Office.Compliance.MATagging.MALApplications": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.MALAppsCommon": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.MALCoreAlgos": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.MALPrediction": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.MALUtility": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.Tools.ExperimentUtilityTool": "1.0.0"
+        },
+        "runtime": {
+          "Microsoft.Office.Compliance.MATagging.Tools.PMIExperimentTool.dll": {}
+        }
+      },
+      "HtmlAgilityPack/1.11.28": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.28.0",
+            "fileVersion": "1.11.28.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Microsoft.Office.Compliance.MATagging.MALApplications/1.0.0": {
+        "dependencies": {
+          "Microsoft.Office.Compliance.MATagging.MALAppsCommon": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.MALCoreAlgos": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.MALPrediction": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "Microsoft.Office.Compliance.MATagging.MALApplications.dll": {}
+        }
+      },
+      "Microsoft.Office.Compliance.MATagging.MALAppsCommon/1.0.0": {
+        "dependencies": {
+          "Microsoft.Office.Compliance.MATagging.MALCoreAlgos": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "Microsoft.Office.Compliance.MATagging.MALAppsCommon.dll": {}
+        }
+      },
+      "Microsoft.Office.Compliance.MATagging.MALCoreAlgos/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "Microsoft.Office.Compliance.MATagging.MALCoreAlgos.dll": {}
+        }
+      },
+      "Microsoft.Office.Compliance.MATagging.MALPrediction/1.0.0": {
+        "dependencies": {
+          "Microsoft.Office.Compliance.MATagging.MALAppsCommon": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.MALCoreAlgos": "1.0.0"
+        },
+        "runtime": {
+          "Microsoft.Office.Compliance.MATagging.MALPrediction.dll": {}
+        }
+      },
+      "Microsoft.Office.Compliance.MATagging.MALUtility/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.28",
+          "Microsoft.Office.Compliance.MATagging.MALAppsCommon": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.MALCoreAlgos": "1.0.0"
+        },
+        "runtime": {
+          "Microsoft.Office.Compliance.MATagging.MALUtility.dll": {}
+        }
+      },
+      "Microsoft.Office.Compliance.MATagging.Tools.ExperimentUtilityTool/1.0.0": {
+        "dependencies": {
+          "Microsoft.Office.Compliance.MATagging.MALApplications": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.MALAppsCommon": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.MALCoreAlgos": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.MALPrediction": "1.0.0",
+          "Microsoft.Office.Compliance.MATagging.MALUtility": "1.0.0"
+        },
+        "runtime": {
+          "Microsoft.Office.Compliance.MATagging.Tools.ExperimentUtilityTool.dll": {}
+        }
+      },
+      "Microsoft.Exchange.Compliance.DocumentPreview.Interface/15.0.0.0": {
+        "runtime": {
+          "Microsoft.Exchange.Compliance.DocumentPreview.Interface.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.20.3544.0"
+          }
+        }
+      },
+      "Microsoft.Exchange.Compliance.DocumentPreview.Core/15.0.0.0": {
+        "runtime": {
+          "Microsoft.Exchange.Compliance.DocumentPreview.Core.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.20.3544.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Office.Compliance.MATagging.Tools.PMIExperimentTool/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aclp8f2p+xeNNR02qfMu2r4K49sNWE13VDHiLpv9SoKBDIwwy62HQIMnT+oeuyFquQRzwSGD3vUWUmtOT+eNzQ==",
+      "path": "htmlagilitypack/1.11.28",
+      "hashPath": "htmlagilitypack.1.11.28.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Microsoft.Office.Compliance.MATagging.MALApplications/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Office.Compliance.MATagging.MALAppsCommon/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Office.Compliance.MATagging.MALCoreAlgos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Office.Compliance.MATagging.MALPrediction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Office.Compliance.MATagging.MALUtility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Office.Compliance.MATagging.Tools.ExperimentUtilityTool/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Exchange.Compliance.DocumentPreview.Interface/15.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Exchange.Compliance.DocumentPreview.Core/15.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

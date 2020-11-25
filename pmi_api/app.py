@@ -125,8 +125,8 @@ def pmi():
     req_body = request.get_json()
     if req_body =='':
         return "Pass the query string is empty"
-    fil = "C:/Users/v-saigoteti/Desktop/pmi"
-    pmi_path = fil+"/home/pmi/"
+    # fil = "C:/Users/v-saigoteti/Desktop/pmi"
+    pmi_path = "pmi/"
     library_path = "library/"
     if not os.path.exists(pmi_path):
         os.mkdir(pmi_path)

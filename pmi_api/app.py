@@ -315,7 +315,8 @@ def pmi():
             process = library_path+'Microsoft.Office.Compliance.MATagging.Tools.ExperimentUtilityTool.exe'+argument
             logging.info(process)
             logging.info("starting the reduction process")
-            os.system(process)
+            # os.system(process)
+            subprocess.call(process)
             local_files = os.listdir(models_path+'Polished/')
             parent_path = model_path.replace(ntpath.basename(model_path),'')
             for i in local_files:
@@ -348,7 +349,8 @@ def pmi():
             process = library_path+'Microsoft.Office.Compliance.MATagging.Tools.ExperimentUtilityTool.exe'+argument
             logging.info(process)
             logging.info("starting the reduction process")
-            os.system(process)
+            # os.system(process)
+            subprocess.call(process)
             local_files = os.listdir(models_path+'ReducedSize/')
             parent_path = model_path.replace(ntpath.basename(model_path),'')
             for i in local_files:
